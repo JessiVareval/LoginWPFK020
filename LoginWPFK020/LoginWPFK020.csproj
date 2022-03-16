@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Agregar.jpg" />
+    <None Remove="ayuda.jpg" />
+    <None Remove="confider.jpg" />
+    <None Remove="editar.jpg" />
+    <None Remove="estadisticas.jpg" />
+    <None Remove="Preferencias.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Agregar.jpg" />
+    <Resource Include="ayuda.jpg" />
+    <Resource Include="confider.jpg" />
+    <Resource Include="editar.jpg" />
+    <Resource Include="estadisticas.jpg" />
+    <Resource Include="Preferencias.jpg" />
+  </ItemGroup>
+
+</Project>
